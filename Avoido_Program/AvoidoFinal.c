@@ -43,7 +43,7 @@ void interrupt(void){
             mydelay_ms(500);
         }
         PORTA = PORTA | 0x02;
-        PORTA = PORTA & 0x03;      
+        PORTA = PORTA & 0x03;
         INTCON = INTCON & 0xFD;
     }
     else if(PIR1 & 0x04) { // CCP1 interrupt
@@ -73,10 +73,10 @@ void main(void){
     TRISC = 0x00; // Port C all outputs, RC1 --> PWM for H-Bridge, RC2 --> Compare for Servo Motor
     TRISD = 0x15; // D0 --> D5 for ultrasonic sensor
     TRISE = 0x00; // Unimplemented
-  
+
     PORTA = PORTA | 0x02;
     PORTA = PORTA & 0xFB;
-  
+
     OPTION_REG = 0x80;
     INTCON = 0xF0;
 

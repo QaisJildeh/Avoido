@@ -180,6 +180,7 @@ delay_5ms
 delay_80us
 delay_8ms
 delay_cyc
+delay10us
 delayms
 div_16x16_s
 div_16x16_s_l
@@ -532,7 +533,6 @@ t2ckps0_bit
 t2ckps1
 t2ckps1_bit
 t2con
-timer
 tmr0
 tmr0ie
 tmr0ie_bit

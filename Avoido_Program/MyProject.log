@@ -1,13 +1,13 @@
-0	1	mikroCPIC1618.exe -MSF -DBG -pP16F877A -DL -O11111114 -fo8 -N"C:\Users\jilde\Desktop\PSUT\Y4S1\Embedded Systems [22442]\Project\Final_Submission_QMS\Official\Avoido_Program\MyProject.mcppi" -SP"C:\Users\jilde\Desktop\Other Softwares\PIC\mikroC PRO for PIC\Defs\" -SP"C:\Users\jilde\Desktop\Other Softwares\PIC\mikroC PRO for PIC\Uses\P16\" -SP"C:\Users\jilde\Desktop\PSUT\Y4S1\Embedded Systems [22442]\Project\Final_Submission_QMS\Official\Avoido_Program\" -IP"C:\Users\jilde\Desktop\Other Softwares\PIC\mikroC PRO for PIC\Uses\P16\" "AvoidoFinal.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl"	 
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F877A -DL -O11111114 -fo8 -N"C:\Users\jilde\Desktop\PSUT\Y4S1\Embedded Systems [22442]\Project\Final_Submission_QMS\Official\Avoido\Avoido_Program\MyProject.mcppi" -SP"C:\Users\jilde\Desktop\Other Softwares\PIC\mikroC PRO for PIC\Defs\" -SP"C:\Users\jilde\Desktop\Other Softwares\PIC\mikroC PRO for PIC\Uses\P16\" -SP"C:\Users\jilde\Desktop\PSUT\Y4S1\Embedded Systems [22442]\Project\Final_Submission_QMS\Official\Avoido\Avoido_Program\" -IP"C:\Users\jilde\Desktop\Other Softwares\PIC\mikroC PRO for PIC\Uses\P16\" "AvoidoFinal.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl"	 
 hint: 0	1139	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
 diagnostics: 0	122	Compilation Started	AvoidoFinal.c
-diagnostics: 274	123	Compiled Successfully	AvoidoFinal.c
-hint: 164	1164	Variable 'distance' has been eliminated by optimizer	AvoidoFinal.c
-hint: 164	1164	Variable 'time' has been eliminated by optimizer	AvoidoFinal.c
-diagnostics: 0	127	All files Compiled in 94 ms	 
-hint: 0	1144	Used RAM (bytes): 26 (7%)  Free RAM (bytes): 326 (93%)	Used RAM (bytes): 26 (7%)  Free RAM (bytes): 326 (93%)
-hint: 0	1144	Used ROM (program words): 829 (10%)  Free ROM (program words): 7363 (90%)	Used ROM (program words): 829 (10%)  Free ROM (program words): 7363 (90%)
+diagnostics: 228	123	Compiled Successfully	AvoidoFinal.c
+hint: 131	1164	Variable 'distance' has been eliminated by optimizer	AvoidoFinal.c
+hint: 131	1164	Variable 'time' has been eliminated by optimizer	AvoidoFinal.c
+diagnostics: 0	127	All files Compiled in 78 ms	 
+hint: 0	1144	Used RAM (bytes): 25 (7%)  Free RAM (bytes): 327 (93%)	Used RAM (bytes): 25 (7%)  Free RAM (bytes): 327 (93%)
+hint: 0	1144	Used ROM (program words): 840 (10%)  Free ROM (program words): 7352 (90%)	Used ROM (program words): 840 (10%)  Free ROM (program words): 7352 (90%)
 diagnostics: 0	125	Project Linked Successfully	MyProject.mcppi
-diagnostics: 0	128	Linked in 15 ms	 
-diagnostics: 0	129	Project 'MyProject.mcppi' completed: 250 ms	 
-diagnostics: 0	103	Finished successfully: 14 Jan 2025, 22:45:18	MyProject.mcppi
+diagnostics: 0	128	Linked in 31 ms	 
+diagnostics: 0	129	Project 'MyProject.mcppi' completed: 141 ms	 
+diagnostics: 0	103	Finished successfully: 20 Jan 2025, 10:11:47	MyProject.mcppi

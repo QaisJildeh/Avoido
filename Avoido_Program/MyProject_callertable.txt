@@ -3,7 +3,9 @@ main
 		____DoICP
 	ADCinit
 	initPWM
+	servoINIT
 	calculate_distance
+		delay10us
 		word2double
 			NRM3232
 				RES032
